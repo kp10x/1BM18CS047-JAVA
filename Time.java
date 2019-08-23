@@ -49,12 +49,12 @@ class Time
 {
  public static void main(String args[])
  {
-  Timecalc t=new Timecalc();
   Scanner sc=new Scanner(System.in);
   System.out.println("Enter the current time");
-  t.h=sc.nextInt();
-  t.m=sc.nextInt();
-  t.s=sc.nextInt();
+  int p=sc.nextInt();
+  int q=sc.nextInt();
+  int r=sc.nextInt();
+  Timecalc t=new Timecalc(p,q,r);
   int sel,op;
   do
   {
